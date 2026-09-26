@@ -1,0 +1,31 @@
+<routes>
+
+    <vType id="car"
+           accel="2.6"
+           decel="4.5"
+           length="5"
+           maxSpeed="13.9"/>
+
+    <vType id="emergency"
+       accel="3.0"
+       decel="5.0"
+       length="5"
+       maxSpeed="15.0"
+       color="1,0,0"/>
+
+    <route id="leftRight"
+           edges="left0A0 A0A1 A1B1 B1right1"/>
+
+    <route id="rightLeft"
+           edges="right1B1 B1A1 A1A0 A0left0"/>
+
+    <route id="bottomTop"
+           edges="bottom0A0 A0B0 B0B1 B1top1"/>
+
+    <route id="topBottom"
+           edges="top1B1 B1B0 B0A0 A0bottom0"/>
+
+    <flow id="trafficLR" type="car" route="leftRight" begin="0" end="600" number="60"/>
+    <flow id="trafficRL" type="car" route="rightLeft" begin="0" end="600" number="60"/>
+    <flow id="trafficBT" type="car" route="bottomTop" begin="0" end="600" number="60"/>
+    <flow id="trafficTB" type="car" route="topBottom" begin="0" end="600" number="60"/></routes>

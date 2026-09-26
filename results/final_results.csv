@@ -1,0 +1,4 @@
+Traffic Level,Vehicles,Baseline Fitness,PSO Fitness,Fitness Improvement (%),Baseline Time Loss,PSO Time Loss,Baseline Stops,PSO Stops,Throughput
+Light,80,40.7027,40.901,-0.49,50.5096,50.7481,1.475,1.5125,Not measured
+Moderate,160,46.0193,43.4024,5.69,57.0538,53.8483,1.8813,1.6187,Not measured
+Heavy,240,47.5694,44.2749,6.93,58.9743,54.9572,1.95,1.5458,240 / 240
